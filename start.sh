@@ -8,5 +8,5 @@ else
 fi
 cd /PiroAutoFilterBot
 pip3 install -U -r requirements.txt
-echo "Starting PiroAutoFilterBot...."
+echo "Starting PC AutoFilterBot...."
 python3 bot.py
