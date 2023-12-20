@@ -186,7 +186,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Tʜᴇʀᴇ ᴀʀᴇ ɴᴏ ᴀᴄᴛɪᴠᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ!! Cᴏɴɴᴇᴄᴛ ᴛᴏ ꜱᴏᴍᴇ ɢʀᴏᴜᴘꜱ ғɪʀꜱᴛ.", quote=True)
-                    return await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
+                    return await query.answer(' PC ')
             else:
                 await query.message.edit_text(
                     "Iᴀᴍ Nᴏᴛ Cᴏɴɴᴇᴄᴛᴇᴅ Tᴏ Aɴʏ Gʀᴏᴜᴩ \nCʜᴇᴄᴋ /connections Oʀ Cᴏɴɴᴇᴄᴛ Tᴏ Aɴʏ Gʀᴏᴜᴩ",
@@ -461,8 +461,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🚨 𝗦𝘁𝗮𝘁𝘂𝘀 🚨', callback_data='stats'),
             InlineKeyboardButton('❤️‍🔥 𝗔𝗱𝗺𝗶𝗻 ❤️‍🔥', url=f'https://t.me/PCADMINOFFICIALBOT')
         ], [
-            InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
-        ], [
             InlineKeyboardButton('👋 Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs 👋', callback_data='mods')
         ], [
             InlineKeyboardButton('📦 Cʜᴇᴄᴋ Pɪɴɢ 📡', callback_data='pongd')
@@ -713,7 +711,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
+    await query.answer(' PC ')
 
 
 async def auto_filter(client, msg, spoll=False):
