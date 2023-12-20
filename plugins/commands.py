@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Tamilan_BotsZ')
+                InlineKeyboardButton('🔰 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 🔰', url='https://t.me/pcmoviegroup')
             ],
             [
                 InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -47,17 +47,13 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+5aoApavIMVo1YzQ1'),
+            InlineKeyboardButton('🔰 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 🔰', url='https://t.me/pcmoviegroup'),
 
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/TamilanMoviesChat')
-
-            ],[
-
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('🔰 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔰', url='https://t.me/cometomovechannels')
 
             ],[
 
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
+            InlineKeyboardButton('❤️‍🔥 𝐇𝐞𝐥𝐩 ❤️‍🔥', callback_data= 'about')
 
             ],[
 
@@ -104,12 +100,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+5aoApavIMVo1YzQ1'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/TamilanMoviesChat')
+            InlineKeyboardButton('🔰 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 🔰', url='https://t.me/pcmoviegroup'),
+            InlineKeyboardButton('🔰 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔰', url='https://t.me/cometomovechannels')
             ],[
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
-            ],[
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
+            InlineKeyboardButton('❤️‍🔥 𝐇𝐞𝐥𝐩 ❤️‍🔥', callback_data= 'about')
             ],[
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
