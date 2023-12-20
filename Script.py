@@ -21,8 +21,8 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
     
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
-    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a PC </a>
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a PC </a>
+    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : PC 
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : PC
 🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ : <a href=https://t.me/pcmoviegroup>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ
