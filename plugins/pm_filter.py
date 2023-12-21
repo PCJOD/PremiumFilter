@@ -461,9 +461,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🚨 𝗦𝘁𝗮𝘁𝘂𝘀 🚨', callback_data='stats'),
             InlineKeyboardButton('❤️‍🔥 𝗔𝗱𝗺𝗶𝗻 ❤️‍🔥', url=f'https://t.me/PCADMINOFFICIALBOT')
         ], [
-            InlineKeyboardButton('👋 Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs 👋', callback_data='mods')
+            InlineKeyboardButton('⚙️ 𝑬𝒙𝒕𝒓𝒂 𝑴𝒐𝒅𝒆 ⚙️', callback_data='mods')
         ], [
-            InlineKeyboardButton('📦 Cʜᴇᴄᴋ Pɪɴɢ 📡', callback_data='pongd')
+            InlineKeyboardButton('🚀 𝗣𝗶𝗻𝗴 🚀', callback_data='pongd')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
         ]]
